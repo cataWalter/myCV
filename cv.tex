@@ -1,104 +1,99 @@
 \documentclass{muratcan_cv}
-\setname{John Doe}{}
-\setaddress{Rando, Canada}
-\setmobile{+1 333-333-3333}
-\setmail{john@johndoe.com}
-\setlinkedinaccount{https://www.linkedin.com/in/rick-astley-b6a42b24/} 
-\setgithubaccount{https://github.com/topics/rick-astley} 
+\setname{Walter Catalfamo}{}
+\setaddress{Nice, France}
+\setmobile{+33766629015}
+\setmail{cata.walter@gmail.com}
+\setlinkedinaccount{https://www.linkedin.com/in/walter-catalfamo/}
+\setgithubaccount{https://github.com/cataWalter}
 \setthemecolor{MidnightBlue}
 \begin{document}
 \headerview
 \vspace{1ex}
 \section{Education}
-\datedexperience{Master of Engineering (Thesis) - Mechanical}{Sep 2018 - Apr 2021}
-\explanation{Rando University}{San Francisco, CA}
-\datedexperience{Bachelor of Engineering - Mechanical}{Sep 2013 - Apr 2018}
-\explanation{Rando University}{San Francisco, CA}
+\datedexperience{Master's Degree in Computer Engineering}{Sep 2020 - Jan 2023}
+\explanation{Politecnico di Milano}{Milan, Italy}
+\datedexperience{Bachelor's Degree in Computer Engineering}{Sep 2017 - Jul 2020}
+\explanation{Politecnico di Milano}{Milan, Italy}
 \section{Skills}
-\newcommand{\skillone}{\createskill{Programming Languages}{Python \cpshalf Java \cpshalf C++ \cpshalf C \cpshalf C\# \cpshalf JavaScript \cpshalf MATLAB \cpshalf Simulink}}
-\newcommand{\skilltwo}{\createskill{Technologies}{AWS BS/EC/EC2/ELB \cpshalf Azure AD \cpshalf Docker \cpshalf React.js \cpshalf Flask \cpshalf Redis \cpshalf Spring \cpshalf Android \cpshalf ROS}}
+\newcommand{\skillone}{\createskill{Programming Languages}{Python \cpshalf Java \cpshalf C++ \cpshalf SQL \cpshalf PHP}}
+\newcommand{\skilltwo}{\createskill{Technologies}{Apache Kafka \cpshalf Hibernate \cpshalf Node.js \cpshalf MongoDB \cpshalf Couchbase \cpshalf MySQL \cpshalf Docker \cpshalf Kubernetes \cpshalf Microsoft Azure}}
 \createskills{\skillone, \skilltwo}
 \vspace{-3mm}
 \section{Experience}
-\datedexperience{Rando University}{May 2018 - Mar 2021}
-\explanation{Graduate Control Systems Researcher}{San Francisco, CA}
+\datedexperience{Amadeus}{2023 - Present}
+\explanation{Backend Developer}{Nice, France}
 \explanationdetail{
     \smallskip
-    \coloredbullet\
-    Developed a novel modification to a quaternion-based control system that optimizes control allocation within a quadrotor's actuator constraints to improve its stability and performance.
+    \coloredbullet\ Developed and maintained RESTful APIs for a distributed, cloud-native system on Azure using Java and Quarkus, focusing on performance, security, and scalability.
     \smallskip
-    \coloredbullet\
-    Modeled and simulated a quadrotor's attitude and translational dynamics in MATLAB/Simulink to quantify the stability and performance improvements of the proposed control system.
+    \coloredbullet\ Deployed and managed applications on Kubernetes using Helm and Argo CD, following GitOps principles for consistency and reliability.
     \smallskip
-    \coloredbullet\
-    Adapted and extended existing C++ code architectures to facilitate prototype implementation and performed hardware-in-the-loop simulations, using Gazebo/ROS for testing.
+    \coloredbullet\ Integrated event-driven communication using Apache Kafka and managed NoSQL databases (Couchbase) for data persistence.
     \smallskip
+    \coloredbullet\ Configured Istio service mesh for traffic management, mTLS encryption, and observability (distributed tracing, metrics).
+    \smallskip
+    \coloredbullet\ Acted as Scrum Master within a SAFe framework to guide team productivity and organization.
 }
-\datedexperience{Rando Space Company}{Sep 2017 - Dec 2017}
-\explanation{Satellite Simulations Intern}{San Francisco, CA}
+\datedexperience{Politecnico di Milano}{Sep 2021 - Feb 2023}
+\explanation{Teacher Assistant}{Milan, Italy}
 \explanationdetail{
     \smallskip
-    \coloredbullet\
-    Extended foundational Python code that performs Monte Carlo simulations for the Very Specific Space Mission.
+    \coloredbullet\ Led lab sessions and graded assignments for the \emph{Probability and Statistics} course.
     \smallskip
-    \coloredbullet\
-    Coordinated with Senior Engineers in validating and improving models while supplying time-sensitive simulation data for Critical Design Reviews.
+    \coloredbullet\ Co-taught fundamental programming concepts in C and MATLAB for the \emph{Foundations of Computer Science} course.
+}
+\datedexperience{Private Tutoring}{Sep 2019 - Present}
+\explanationdetail{
     \smallskip
-    \coloredbullet\
-    Generated reports for the Very Specific Space Mission performance under varied initial conditions of the Specific system to ensure its reliability before launch.
-    \bigskip
+    \coloredbullet\ Provide private tutoring in advanced subjects across Math, Physics, Electronics, and Computer Science.
+}
+\datedexperience{UniTrekking}{Oct 2021 - May 2023}
+\explanation{Mountain Guide}{Milan, Italy}
+\explanationdetail{
+    \smallskip
+    \coloredbullet\ Responsible for leading groups on treks in the Alps, developing strong leadership and social skills.
 }
 \section{Notable Projects}
-\datedexperience{RandoSite.com}{Mar 2021 - Sep 2021}
-\explanation{Full Stack Developer}{San Francisco, CA}
+\datedexperience{Skillogue}{2022}
+\explanation{Full-Stack Social Network}{Personal Project}
 \explanationdetail{
     \smallskip
-    \coloredbullet\
-    Independently built an open-source web application that performs advanced Monte Carlo calculations for options trading, receiving praise from the trading community for its simplicity and accessibility.
+    \coloredbullet\ Developed a social network from the ground up to connect people based on shared hobbies and passions, managing the project from conception to deployment.
     \smallskip
-    \coloredbullet\
-    Front and back-end development using the React and Flask (Python) frameworks, respectively. These services were containerized using Docker Compose to enable scalability in the software architecture.
-    \smallskip
-    \coloredbullet\
-    Used Python optimization techniques to reduce calculation times for a fast API that can serve thousands of users per second. Load balancing in AWS was incorporated to ensure fault-tolerance and reliability of the application.
-    \smallskip
-    \coloredbullet\
-    Integrated the Azure Active Directory B2C service for secure user authentication and convenient identity management.
-    \smallskip
+    \coloredbullet\ \textbf{Tech Stack:} Flutter/Dart (front-end) and Supabase (backend-as-a-service).
 }
-\datedexperience{RandoApp Android App}{Jan 2018 - Apr 2018}
-\explanation{Full Stack Developer}{San Francisco, CA}
+\datedexperience{NikiTranslator}{2022}
+\explanation{Multi-Language Learning App}{Personal Project}
 \explanationdetail{
     \smallskip
-    \coloredbullet\
-    Collaborated with a team in building an Android application for monitoring the health status of trees in San Francisco. The app would assist the city in its urban planning and sustainability goals.
+    \coloredbullet\ Built a translator app that translates sentences into multiple languages simultaneously and helps users track frequently used words in a personal dictionary.
     \smallskip
-    \coloredbullet\
-    Implemented the user authentication system using the Android SDK (Java). Google Maps was integrated into the app to enable geotagging of trees and updating their health status by users.
-    \smallskip
-    \coloredbullet\
-    Test-driven development of all back-end endpoints using JUnit testing. The back-end was deployed on a Tomcat server.
-    \smallskip
+    \coloredbullet\ \textbf{Tech Stack:} Developed as a desktop application in Python.
 }
-\datedexperience{University Space Design Team}{Sep 2016 - May 2018}
-\explanation{Satellite Control Systems Lead}{San Francisco, CA}
+\datedexperience{Schema Query Reverse Engineering}{2022}
+\explanation{Data Engineering Tool}{Academic Project}
 \explanationdetail{
     \smallskip
-    \coloredbullet\
-    Led a team of prospective engineers in designing the control system for Rando University's first student-led Cube Satellite (CubeSat) project. The satellite would compete in the USA Satellite Design Competition.
+    \coloredbullet\ Designed and implemented an algorithm to reverse-engineer a database's schema mapping based on a series of query outputs.
     \smallskip
-    \coloredbullet\
-    Simulated the attitude dynamics and kinematics of a CubeSat in MATLAB to optimize controller gains and to size our actuators for power efficiency.
-    \smallskip
-    \coloredbullet\
-    Implemented PID and B-dot controllers in Python on a Raspberry Pi for the attitude control of a CubeSat prototype, achieving a desired pointing accuracy of less than 15 degrees for our mission.
-    \smallskip
+    \coloredbullet\ \textbf{Tech Stack:} Core logic implemented in Python.
 }
 \section{Publications}
-\indent
 \explanationdetail{
     \smallskip
-    \coloredbullet\
-    \textbf{John Doe} and FirstName LastName, "Super Awesome Modification for UAV Control Systems," \emph{2020 International Conference on Super Cool Stuff (ICSCS)}, Paris, France.
+    \coloredbullet\ \textbf{Walter Catalfamo, et al.}, 
+    \href{https://www.politesi.polimi.it/handle/10589/192124}
+    {\emph{"Schema Query Reverse Engineering,"}} Politecnico di Milano, Oct 2022.
+}
+\section{Languages}
+\explanationdetail{
+    \smallskip
+    \coloredbullet\ \textbf{Native:} Italian, Sicilian
+    \smallskip
+    \coloredbullet\ \textbf{Fluent:} English, French, Spanish
+    \smallskip
+    \coloredbullet\ \textbf{Conversational:} Portuguese
+    \smallskip
+    \coloredbullet\ \textbf{Basic:} Dutch, German, Turkish
 }
 \end{document}
