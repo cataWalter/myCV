@@ -4,7 +4,7 @@ This repository contains the source code for my personal curriculum vitae, creat
 
 ## Preview
 
-![CV Preview](cv.jpg)
+![CV Preview](CV_Walter_Catalfamo.jpg)
 
 ---
 
